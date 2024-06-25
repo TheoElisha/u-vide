@@ -1,0 +1,264 @@
+.amazonCart{
+  background-color: beige;
+  width: 370px;
+  height: 250px;
+  padding-left: 15px;
+  border: solid;
+  border-style: black;
+}
+a{
+  color: brown;
+}
+b{
+font-size: 25px;
+}
+.price{
+  color: green;
+}
+button{
+  background-color: rgb(224, 166, 19);
+  color: black;
+  height: 33px;
+  width: 110px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+button:hover{
+  opacity: 0.7;
+}
+button:active{
+  background-color: rgb(255, 0, 76);
+  color: white;
+  box-shadow: 7px 7px 10px rgba(0 0 0 0.15);
+
+}
+
+.bot-calc{
+  background-color: beige;
+  width: 60px;
+  border: solid 1px rgb(209, 196, 196);
+  border-radius: 2px;
+  font-size: 20px;
+}
+u{
+  margin-right: 10px;
+  font-size: 15px;
+}
+.stretch-box{
+  background-color: beige;
+  width: 250px;
+  height: 120px;
+  border: solid;
+  padding-top: 15px;
+}
+.Stretch{
+  background-color: green;
+  width: 120px;
+  border-radius: 1px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.Stretch:active{
+  width: 150px;
+  background-color: green;
+}
+.Number{
+  background-color: green;
+  border-radius: 1px;
+  height: 40px;
+  width: 70px;
+  color: white;
+  font-size: 20px;
+}
+.Number:active{
+  width: 100px;
+  background-color: green;
+  columns: white;
+}
+.car1{
+  width: 200px;
+  margin-bottom: 20px;
+  border: solid;
+  border-style: rgb(113, 226, 164);
+  object-fit: cover;
+  border-radius: 160px;
+}
+.car2{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: solid;
+  border-style: rgb(113, 226, 164);
+  object-fit: contain;
+  object-position: top;
+
+}
+.search-box{
+  width: 200px;
+  height: 35px;
+}
+.search-Google{
+  width: 400px;
+  height: 30px;
+  border-radius: 15px;
+  border-style: white;
+  border:  0.1px solid;
+  padding-left: 8px;
+}
+.linkdin-sbox{
+  width: 337px;
+}
+.link-button{
+  width: 260px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-left: 40px;
+  
+}
+.box{
+  height: 38px;
+  width: 300px;
+  vertical-align: top;
+  border: none;
+  margin-left: 20px;
+}
+.img-box{
+  width: 70px;
+  border-radius: 25px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.tweetbot{
+  width: 75px;
+  background-color: blue;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+.Email{
+  display: block;
+}
+.text{
+  display: block;
+  margin-top: 10px;
+}
+.survey{
+  width: 200px;
+  display: inline-block;
+}
+.survey-bot{
+  width: 40px;
+  border-style: gray;
+  vertical-align: middle;
+  background-color: rgb(226, 218, 218);
+  border-radius: 1px;
+}
+.google-logo{
+ width: 600px;
+ margin-left: 400px;
+ position: absolute;
+ 
+}
+.s-google{
+  width: 700px;
+  height: 37px;
+  position: relative;
+  margin-left: 300px;
+  vertical-align: top;
+  border-radius: 19px;
+  padding-left: 40px;
+  font-size: 20px;
+  border-style: rgb(255, 255, 255);
+  border: solid 2px rgb(231, 231, 231);
+ margin-top: 300px;
+}
+.name{
+  width: 100px;
+  height: 30px;
+  margin-bottom: 9px;
+  border-radius: 7px;
+  border: solid 2px rgb(231, 225, 225);
+}
+.Email{
+  width: 214px;
+  height: 30px;
+  border-radius: 7px;
+  border: solid 2px rgb(231, 225, 225);
+}
+.name-bot{
+  width: 150px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-left: 32px;
+}
+.Enter{
+  width: 250px;
+  background-color: rgb(228, 228, 228);
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+}
+.Request-ride{
+  margin-top: 10px;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+}
+.Request-ride1{
+  margin-top: 10px;
+  background-color:rgb(228, 228, 228);
+  border-radius: 5px;
+  color: black;
+  padding: 3px 3px;
+}
+body{
+  padding-top: 200px;
+}
+.oliver{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  justify-content: space-between;
+}
+.image{
+  width: 40px;
+  border-radius: 20px;
+}
+.image img{
+  width: 45px;
+  border-radius: 35px;
+}
+.search-bb{
+  flex: 1;
+}
+.search{
+
+  width: 320px;
+  height: 39px;
+  margin-left: 20px;
+  border: solid 1px rgb(185, 185, 185);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.oliver button{
+  width: 120px;
+  height: 36px;
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+}
+

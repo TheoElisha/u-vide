@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+}
+.header{
+  display: flex;
+  height: 55px;
+  background-color: white;
+  padding: 10px 0px 10px 0px;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: solid 1.5px rgb(204, 203, 203);
+ z-index: 2;
+ cursor: pointer;
+  
+}
+.left-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+}
+.hamburger-menu{
+  height: 40px;
+}
+.youtube-logo{
+  height: 25px;
+  margin-left: 15px;
+}
+
+
+
+.center-header{
+  flex: 1;
+  max-width: 650px;
+ 
+ display: flex;
+ align-items: center;
+}
+.search{
+  flex: 1;
+  height: 48px;
+ border-radius: 4px;
+ padding-left: 20px;
+ width: 0;
+ border: solid 1px rgb(223, 221, 221);
+ font-family: Robot Arial, Helvetica;
+ font-size: 20px;
+}
+.search::placeholder{
+  font-size: 23px;
+}
+.search-icon{
+  height: 52px;
+  width: 70px;
+  background-color: rgb(238, 238, 238);
+  margin-left: -1px;
+  padding-top: 5px;
+  border-radius: 2px;
+  border: solid 1px rgb(223, 221, 221);
+  position: relative;
+
+}
+.search-icon img{
+  height: 37px;
+}
+.search-icon .tooltips,.voice-search-icon .V-search-icon{
+position: absolute;
+background-color: rgb(231, 224, 224);
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+margin-top: 20px;
+opacity: 0;
+transition: opecity 0.19s;
+pointer-events: none;
+
+}
+.search-icon:hover .tooltips, .voice-search-icon:hover .V-search-icon{
+opacity: 1;
+}
+.voice-search-icon{
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+}
+
+.right-header{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+ justify-content: space-between;
+ flex-shrink: 0;
+}
+.right-header img{
+  height: 35px;
+}
+.my-channel-img{
+  border-radius: 16px;
+}
+
+.notification-bar{
+  position: relative;
+}
+.notification-count{
+  position: absolute;
+  background-color: rgb(189, 15, 15);
+ text-align: center;
+  top: 0;
+  right: 0;
+  color: white;
+  border-radius: 16px;
+  width: 20px;
+  padding: 2px 2px 2px 2px;
+  font-weight: 500;
+
+}
